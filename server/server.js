@@ -21,11 +21,11 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.error("MongoDB connection error:", error));
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "ecommerce-rho-six-68.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
