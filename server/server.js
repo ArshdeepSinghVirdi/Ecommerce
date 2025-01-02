@@ -15,9 +15,6 @@ const shopSearchRouter = require("./routes/shop/search-routes");
 const shopReviewRouter = require("./routes/shop/review-routes");
 const commonFeatureRouter = require("./routes/common/feature-routes");
 
-app.get("/",(req,res)=>{
-  res.json("Hello")
-})
 
 mongoose
   .connect(process.env.MONGO_URI)
