@@ -8,7 +8,7 @@
     "start": "server.js",
     "dev": "nodemon server.js"
   },
-  "author": "sangam mukherjee",
+  "author": "Arshdeep Singh Virdi",
   "license": "ISC",
   "dependencies": {
     "@paypal/paypal-server-sdk": "^0.6.1",
